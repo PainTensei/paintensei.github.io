@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IAN</title>
+    <link rel="stylesheet" type="text/css" href="./Assets/stylesheet2.css">
+    <script src="Assets/javascript2.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<!--0000000000000000000000000000000000000000000000000000000000000000000000000-->
+<body class="bg-image">
+  <h1 class="websitetietel">Welcome home</h1>
+  <h2 class="websitetietel">Enjoy your stay</h2>
+
+  <h2>Style Social Media Buttons</h2>
+
+<!-- Add font awesome icons -->
+
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-snapchat-ghost"></a>
+<a href="#" class="fa fa-reddit"></a>
+
+<!--0000000000000000000000000000000000000000000000000000000000000000000000000-->
+
+  <div id="header" class="sectie">
+    <img class="img-cirlce"
+    src="https://preview.ibb.co/f3L5W9/PainLogo.png"
+    height="400">
+    
+    <h1 class="websitetietel"></h1>
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Chat!</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <iframe width="350" 
+          height="430"
+          allow="microphone;"
+          src="https://console.dialogflow.com/api-client/demo/embedded/58f0210d-075f-4f05-adf4-11a92960b2ab"></iframe>
+      </div>
+    </div>
+                          
+<!--00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000-->
+            
+            <button class="collapsible">Digital footprint</button>
+            <div class="content">
+              <span><iframe class="pdfview" src="Media.pdf#page=1&amp;zoom=100"></iframe></span></div>
+
+            <button class="collapsible">A day in the life</button>
+            <div class="content">
+                <span><iframe class="embedded" width="729" height="410" src="https://www.youtube.com/embed/yg2o8fdXS48" frameborder="0"allow="autoplay; encrypted-media" allowfullscreen></iframe>></iframe></span></div>
+            
+            <button class="collapsible">No Logo</button>
+            <div class="content"><span>
+
+              <button class="collapsible">Overtrekken</button>
+              <div class="content">
+              <span><iframe class="pdfview" src="rode%20peper%20briefing.pdf#page=1&amp;zoom=100"></iframe></span></div>
+
+              <button class="collapsible">My logo</button>
+              <div class="content">
+              <span><iframe class="pdfview" src="Pepperboi.pdf#page=1&amp;zoom=75"></iframe></span></div>
+
+              <button class="collapsible">Uitnodiging</button>
+              <div class="content">
+              <span><iframe class="pdfview" src="uitnodiging.pdf#page=1&amp;zoom=75"></iframe></span></div>
+            </span></div>
+            
+            <button class="collapsible">Big Data</button>
+            <div class="content">
+                <iframe 
+                width="800" 
+                height="600" 
+                src="https://app.powerbi.com/view?r=eyJrIjoiYmNiYjk2NjctNzMyOS00OTYzLWFhMWItMzhlY2JmOGJjMmM5IiwidCI6ImM2NmI2NzY1LWI3OTQtNGEyYi04NGVkLTg0NWIzNDFjMDg2YSIsImMiOjh9" 
+                frameborder="0" 
+                allowFullScreen="true">
+              </iframe></div>
+            
+            <button class="collapsible">User experience</button>  <!-- Nog afmaken-->
+            <div class="content">
+              <span><iframe class="pdfview" src="uX.pdf#page=1&amp;zoom=100"></iframe></span></div>
+
+<!--0000000000000000000000000000000000000000000000000000000000000000000000000000000000-->
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  for (i = 0; i < coll.length; i++)
+  {
+    coll[i].addEventListener("click", function() 
+    {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      
+      if (content.style.display === "block") 
+      {content.style.display = "none";} 
+      
+      else{content.style.display = "block";} 
+    });
+  }
+</script>
+
+<!--0000000000000000000000000000000000000000000000000000000000000000000000000000000000000-->
+
+        <!--Footer????-->
+    <!-- <div class="footer" class=".footer">
+      <p>Ian Levy Schlupp</p>
+    </div>  -->
+</body>
+</html>

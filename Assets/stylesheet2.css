@@ -1,0 +1,259 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13pt;
+    /*background-color: #84CEEB;*/
+    background-repeat: repeat 50% 50%;
+    padding-top: auto;
+    padding-right: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+    margin: 15px auto 15px auto;
+    height: 100%;
+}
+.bg-image {
+    background-image: url("https://preview.ibb.co/mAwJ19/background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+/*.myButton {
+    border: solid #84ceeb 3px;
+    background-color: #8860D0;
+    padding: 0px 8px 4px 8px;
+    border-radius: 6px;
+    width: fit-content;
+    display: inline-block;
+    cursor: pointer;
+} */
+
+.myButton:hover {
+background: #80406B; }
+.myButton:active {
+background: #80406B; }
+
+footer{
+    margin: 0px;
+    border-radius: 0px;
+    height: 110px;
+    width: auto /*1348px*/;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+    font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #29293d;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+/*.parallax {
+
+    background-image: url("https://preview.ibb.co/f3L5W9/PainLogo.png");
+
+    min-height: 500px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}*/
+
+#myBtn {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: 100px;
+    right: 1000px;
+    top: 300px;
+    bottom: 600px;
+    
+}
+
+.myBtn {
+    border: solid #84ceeb 3px;
+    padding: 0px 8px 4px 8px;
+    border-radius: 6px;
+    width: fit-content;
+    display: inline-block;
+    cursor: pointer;
+} 
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: scroll;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #C1C8E4;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 4px solid purple;
+    width: 60%; /* Could be more or less, depending on screen size */
+    height: auto;
+}
+
+/* The Close Button */
+.close {
+    color:black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*000000000000000000000000000000*/
+
+.websitetietel {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/*000000000000000000000000000000*/
+
+/* .dropbtn {
+    background-color: #3498DB;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B0;
+}
+
+.dropdown {
+    position: absolute;
+    left: 1000px;
+    right: 20px;
+    top: 300px;
+    bottom: 600px;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;} */
+
+/* ------------------------------------------------------------------ */
+
+.collapsible {
+background-color: transparent;
+color: rgb(19, 1, 14);
+cursor: pointer;
+padding: 18px;
+width: 50%;
+height: auto;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+}
+
+.active, .collapsible:hover {
+background-color: #84CEEB;
+}
+
+.content {
+padding: 0 18px;
+height: 1000px;
+display: none;
+overflow: hidden;
+background-color: transparent;
+}
+
+/*--------------------------------------------------------------------*/
+
+.pdfview {
+    width: 99%;
+    height: 100%;
+}
+
+/*---------------------------------------------------------------------*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+  }

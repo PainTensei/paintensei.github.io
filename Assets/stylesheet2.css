@@ -17,12 +17,14 @@ body {
     height: 100%;
 }
 .bg-image {
-    background-image: url("https://preview.ibb.co/mAwJ19/background.png");
+    background-image: url("https://cdn.discordapp.com/attachments/492325687332569098/505017840890281995/unknown.png");
     height: 100%;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: 100%;
+    background-color: #ECA2EC;
 }
+
 
 /*.myButton {
     border: solid #84ceeb 3px;
